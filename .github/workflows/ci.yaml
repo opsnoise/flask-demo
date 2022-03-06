@@ -9,3 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello Everyone! My first cicd pipeline"
+      - run: terraform version
+      - run: python3 -V
+      - run: aws --version
