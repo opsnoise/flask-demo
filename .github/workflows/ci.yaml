@@ -1,0 +1,11 @@
+name: demo pipeline
+
+on:
+  push:
+    branch: master
+
+jobs:
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Everyone! My first cicd pipeline"
